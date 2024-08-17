@@ -1,1 +1,35 @@
-<p>navbar works!</p>
+<div class="top-bar d-flex flex-column flex-md-row justify-content-between align-items-center bg-primary text-white p-2">
+    <div class="contact-info mb-2 mb-md-0">
+      <i class="fas fa-phone-alt"></i> Need Consultant? We can discuss the solution.
+    </div>
+    <div class="sign-in-up text-right">
+      Talk to Us: +1(786)-665-8790 &nbsp; | &nbsp; 
+      <a routerLink="/login" class="btn btn-outline-light btn-sm">Login</a>
+      &nbsp;
+      <a routerLink="/register" class="btn btn-outline-light btn-sm">Register</a>
+    </div>
+  </div>
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-custom bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" routerLink="/">SampleApplication</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/aboutUs">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/contactUs">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
